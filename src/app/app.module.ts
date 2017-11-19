@@ -14,6 +14,12 @@ import {MatListModule} from '@angular/material';
 
 import {MatLineModule} from '@angular/material';
 
+import {MatGridListModule} from '@angular/material';
+
+import {MatCardModule} from '@angular/material';
+
+import {MatButtonModule} from '@angular/material';
+
 import 'hammerjs';
 
 import { MenuComponent } from './menu/menu.component';
@@ -30,6 +36,9 @@ import { MenuComponent } from './menu/menu.component';
     ,MatToolbarModule
     ,MatListModule
     ,MatLineModule
+    ,MatGridListModule
+    ,MatCardModule
+    ,MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
