@@ -57,11 +57,10 @@
           <div fxFlex style="height:100px;vertical-align:middle;align-content: center">
             <img class="circleImage" src={{ldr.image}} alt={{ldr.name}}>
           </div>
-          <div fxFlex="95" style="height:100px">
-            <div class="LeaderName">{{ldr.name}} {{ldr.abbr | uppercase}}</div>
-            <div class="LeaderDetails">{{ldr.designation}}<br>
-              {{ldr.description}}
-            </div>
+          <div fxFlex="95">
+              <span class="LeaderName">{{ldr.name}} {{ldr.abbr | uppercase}}</span><br>
+              <span class="LeaderDetails">{{ldr.designation}}</span><br>
+              <span matLine class="LeaderDetails">{{ldr.description}}</span>
           </div>
           <br>
         </div>
