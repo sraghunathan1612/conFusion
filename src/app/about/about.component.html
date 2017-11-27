@@ -58,9 +58,10 @@
             <img class="circleImage" src={{ldr.image}} alt={{ldr.name}}>
           </div>
           <div fxFlex="95" style="height:100px">
-            {{ldr.name}} {{ldr.abbr | uppercase}}<br>
-            {{ldr.designation}}<br>
-            {{ldr.description}}
+            <div class="LeaderName">{{ldr.name}} {{ldr.abbr | uppercase}}</div>
+            <div class="LeaderDetails">{{ldr.designation}}<br>
+              {{ldr.description}}
+            </div>
           </div>
           <br>
         </div>
